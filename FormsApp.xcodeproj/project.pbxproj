@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE034A0B27F749C600E58FEA /* AlegreyaSansSC-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE034A0A27F749C600E58FEA /* AlegreyaSansSC-Black.ttf */; };
+		EE034A0D27F749D000E58FEA /* AlegreyaSansSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE034A0C27F749D000E58FEA /* AlegreyaSansSC-Bold.ttf */; };
+		EE034A1127F749DF00E58FEA /* Serif Gothic Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE034A1027F749DF00E58FEA /* Serif Gothic Regular.ttf */; };
+		EE034A1827FA341600E58FEA /* YPDrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE034A1727FA341600E58FEA /* YPDrawSignatureView.swift */; };
+		EE034A1B27FB690600E58FEA /* ViewControllerTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE034A1A27FB690600E58FEA /* ViewControllerTemp.swift */; };
+		EE034A1D27FCD50900E58FEA /* TimeSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE034A1C27FCD50900E58FEA /* TimeSheetViewController.swift */; };
+		EE57362328032B5300AFB6F1 /* AlegreyaSansSC-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE57362228032B5300AFB6F1 /* AlegreyaSansSC-ExtraBold.ttf */; };
+		EE5C42512812359700E5A769 /* PrimaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5C424F2812359700E5A769 /* PrimaryTableViewCell.swift */; };
+		EE5C42522812359700E5A769 /* PrimaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5C42502812359700E5A769 /* PrimaryTableViewCell.xib */; };
+		EE88093727F13334002FE4B8 /* StartupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE88093627F13334002FE4B8 /* StartupViewController.swift */; };
+		EE88093927F1335E002FE4B8 /* WorkOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE88093827F1335E002FE4B8 /* WorkOrderViewController.swift */; };
+		EE9D09A12802002E009B659E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE9D09A02802002D009B659E /* Roboto-Regular.ttf */; };
+		EEA25FD627F0E41F00C23D1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA25FD527F0E41F00C23D1F /* AppDelegate.swift */; };
+		EEA25FD827F0E41F00C23D1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA25FD727F0E41F00C23D1F /* SceneDelegate.swift */; };
+		EEA25FDA27F0E41F00C23D1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA25FD927F0E41F00C23D1F /* ViewController.swift */; };
+		EEA25FDD27F0E41F00C23D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA25FDB27F0E41F00C23D1F /* Main.storyboard */; };
+		EEA25FDF27F0E42100C23D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA25FDE27F0E42100C23D1F /* Assets.xcassets */; };
+		EEA25FE227F0E42100C23D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA25FE027F0E42100C23D1F /* LaunchScreen.storyboard */; };
+		EEA25FED27F0E42100C23D1F /* Pierpont1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA25FEC27F0E42100C23D1F /* Pierpont1Tests.swift */; };
+		EEA25FF727F0E42100C23D1F /* Pierpont1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA25FF627F0E42100C23D1F /* Pierpont1UITests.swift */; };
+		EEA25FF927F0E42100C23D1F /* Pierpont1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA25FF827F0E42100C23D1F /* Pierpont1UITestsLaunchTests.swift */; };
+		EEAD45B0280474E400E6F3EA /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEAD45AF280474E400E6F3EA /* Roboto-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEA25FE927F0E42100C23D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEA25FCA27F0E41F00C23D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEA25FD127F0E41F00C23D1F;
+			remoteInfo = Pierpont1;
+		};
+		EEA25FF327F0E42100C23D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEA25FCA27F0E41F00C23D1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEA25FD127F0E41F00C23D1F;
+			remoteInfo = Pierpont1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE034A0A27F749C600E58FEA /* AlegreyaSansSC-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSansSC-Black.ttf"; sourceTree = "<group>"; };
+		EE034A0C27F749D000E58FEA /* AlegreyaSansSC-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSansSC-Bold.ttf"; sourceTree = "<group>"; };
+		EE034A1027F749DF00E58FEA /* Serif Gothic Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Serif Gothic Regular.ttf"; sourceTree = "<group>"; };
+		EE034A1727FA341600E58FEA /* YPDrawSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPDrawSignatureView.swift; sourceTree = "<group>"; };
+		EE034A1A27FB690600E58FEA /* ViewControllerTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTemp.swift; sourceTree = "<group>"; };
+		EE034A1C27FCD50900E58FEA /* TimeSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetViewController.swift; sourceTree = "<group>"; };
+		EE57362228032B5300AFB6F1 /* AlegreyaSansSC-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlegreyaSansSC-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EE5C424F2812359700E5A769 /* PrimaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryTableViewCell.swift; sourceTree = "<group>"; };
+		EE5C42502812359700E5A769 /* PrimaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrimaryTableViewCell.xib; sourceTree = "<group>"; };
+		EE88093627F13334002FE4B8 /* StartupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupViewController.swift; sourceTree = "<group>"; };
+		EE88093827F1335E002FE4B8 /* WorkOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOrderViewController.swift; sourceTree = "<group>"; };
+		EE9D09A02802002D009B659E /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		EEA25FD227F0E41F00C23D1F /* Pierpont1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pierpont1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA25FD527F0E41F00C23D1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEA25FD727F0E41F00C23D1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EEA25FD927F0E41F00C23D1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEA25FDC27F0E41F00C23D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEA25FDE27F0E42100C23D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEA25FE127F0E42100C23D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEA25FE327F0E42100C23D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA25FE827F0E42100C23D1F /* Pierpont1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pierpont1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA25FEC27F0E42100C23D1F /* Pierpont1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pierpont1Tests.swift; sourceTree = "<group>"; };
+		EEA25FF227F0E42100C23D1F /* Pierpont1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pierpont1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA25FF627F0E42100C23D1F /* Pierpont1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pierpont1UITests.swift; sourceTree = "<group>"; };
+		EEA25FF827F0E42100C23D1F /* Pierpont1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pierpont1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEAD45AF280474E400E6F3EA /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEA25FCF27F0E41F00C23D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA25FE527F0E42100C23D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA25FEF27F0E42100C23D1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEA25FC927F0E41F00C23D1F = {
+			isa = PBXGroup;
+			children = (
+				EE5C424F2812359700E5A769 /* PrimaryTableViewCell.swift */,
+				EE5C42502812359700E5A769 /* PrimaryTableViewCell.xib */,
+				EEA25FD427F0E41F00C23D1F /* Pierpont Mechanical */,
+				EEA25FEB27F0E42100C23D1F /* PierpontMechanicalTests */,
+				EEA25FF527F0E42100C23D1F /* PierpontMechanicalUITests */,
+				EEA25FD327F0E41F00C23D1F /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		EEA25FD327F0E41F00C23D1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEA25FD227F0E41F00C23D1F /* Pierpont1.app */,
+				EEA25FE827F0E42100C23D1F /* Pierpont1Tests.xctest */,
+				EEA25FF227F0E42100C23D1F /* Pierpont1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEA25FD427F0E41F00C23D1F /* Pierpont Mechanical */ = {
+			isa = PBXGroup;
+			children = (
+				EEA25FD527F0E41F00C23D1F /* AppDelegate.swift */,
+				EEA25FD727F0E41F00C23D1F /* SceneDelegate.swift */,
+				EEA25FD927F0E41F00C23D1F /* ViewController.swift */,
+				EEA25FDB27F0E41F00C23D1F /* Main.storyboard */,
+				EE034A1A27FB690600E58FEA /* ViewControllerTemp.swift */,
+				EE88093627F13334002FE4B8 /* StartupViewController.swift */,
+				EEA25FDE27F0E42100C23D1F /* Assets.xcassets */,
+				EE034A1C27FCD50900E58FEA /* TimeSheetViewController.swift */,
+				EE88093827F1335E002FE4B8 /* WorkOrderViewController.swift */,
+				EE034A1727FA341600E58FEA /* YPDrawSignatureView.swift */,
+				EEAD45AF280474E400E6F3EA /* Roboto-Bold.ttf */,
+				EE034A0A27F749C600E58FEA /* AlegreyaSansSC-Black.ttf */,
+				EE9D09A02802002D009B659E /* Roboto-Regular.ttf */,
+				EE034A0C27F749D000E58FEA /* AlegreyaSansSC-Bold.ttf */,
+				EE57362228032B5300AFB6F1 /* AlegreyaSansSC-ExtraBold.ttf */,
+				EE034A1027F749DF00E58FEA /* Serif Gothic Regular.ttf */,
+				EEA25FE027F0E42100C23D1F /* LaunchScreen.storyboard */,
+				EEA25FE327F0E42100C23D1F /* Info.plist */,
+			);
+			path = "Pierpont Mechanical";
+			sourceTree = "<group>";
+		};
+		EEA25FEB27F0E42100C23D1F /* PierpontMechanicalTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEA25FEC27F0E42100C23D1F /* Pierpont1Tests.swift */,
+			);
+			path = PierpontMechanicalTests;
+			sourceTree = "<group>";
+		};
+		EEA25FF527F0E42100C23D1F /* PierpontMechanicalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEA25FF627F0E42100C23D1F /* Pierpont1UITests.swift */,
+				EEA25FF827F0E42100C23D1F /* Pierpont1UITestsLaunchTests.swift */,
+			);
+			path = PierpontMechanicalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEA25FD127F0E41F00C23D1F /* Pierpont1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA25FFC27F0E42100C23D1F /* Build configuration list for PBXNativeTarget "Pierpont1" */;
+			buildPhases = (
+				EEA25FCE27F0E41F00C23D1F /* Sources */,
+				EEA25FCF27F0E41F00C23D1F /* Frameworks */,
+				EEA25FD027F0E41F00C23D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pierpont1;
+			productName = Pierpont1;
+			productReference = EEA25FD227F0E41F00C23D1F /* Pierpont1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEA25FE727F0E42100C23D1F /* Pierpont1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA25FFF27F0E42100C23D1F /* Build configuration list for PBXNativeTarget "Pierpont1Tests" */;
+			buildPhases = (
+				EEA25FE427F0E42100C23D1F /* Sources */,
+				EEA25FE527F0E42100C23D1F /* Frameworks */,
+				EEA25FE627F0E42100C23D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEA25FEA27F0E42100C23D1F /* PBXTargetDependency */,
+			);
+			name = Pierpont1Tests;
+			productName = Pierpont1Tests;
+			productReference = EEA25FE827F0E42100C23D1F /* Pierpont1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEA25FF127F0E42100C23D1F /* Pierpont1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA2600227F0E42100C23D1F /* Build configuration list for PBXNativeTarget "Pierpont1UITests" */;
+			buildPhases = (
+				EEA25FEE27F0E42100C23D1F /* Sources */,
+				EEA25FEF27F0E42100C23D1F /* Frameworks */,
+				EEA25FF027F0E42100C23D1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEA25FF427F0E42100C23D1F /* PBXTargetDependency */,
+			);
+			name = Pierpont1UITests;
+			productName = Pierpont1UITests;
+			productReference = EEA25FF227F0E42100C23D1F /* Pierpont1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEA25FCA27F0E41F00C23D1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					EEA25FD127F0E41F00C23D1F = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					EEA25FE727F0E42100C23D1F = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = EEA25FD127F0E41F00C23D1F;
+					};
+					EEA25FF127F0E42100C23D1F = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = EEA25FD127F0E41F00C23D1F;
+					};
+				};
+			};
+			buildConfigurationList = EEA25FCD27F0E41F00C23D1F /* Build configuration list for PBXProject "Pierpont Mech" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEA25FC927F0E41F00C23D1F;
+			packageReferences = (
+			);
+			productRefGroup = EEA25FD327F0E41F00C23D1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEA25FD127F0E41F00C23D1F /* Pierpont1 */,
+				EEA25FE727F0E42100C23D1F /* Pierpont1Tests */,
+				EEA25FF127F0E42100C23D1F /* Pierpont1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEA25FD027F0E41F00C23D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5C42522812359700E5A769 /* PrimaryTableViewCell.xib in Resources */,
+				EEA25FE227F0E42100C23D1F /* LaunchScreen.storyboard in Resources */,
+				EE9D09A12802002E009B659E /* Roboto-Regular.ttf in Resources */,
+				EEA25FDF27F0E42100C23D1F /* Assets.xcassets in Resources */,
+				EEA25FDD27F0E41F00C23D1F /* Main.storyboard in Resources */,
+				EE034A1127F749DF00E58FEA /* Serif Gothic Regular.ttf in Resources */,
+				EEAD45B0280474E400E6F3EA /* Roboto-Bold.ttf in Resources */,
+				EE034A0D27F749D000E58FEA /* AlegreyaSansSC-Bold.ttf in Resources */,
+				EE034A0B27F749C600E58FEA /* AlegreyaSansSC-Black.ttf in Resources */,
+				EE57362328032B5300AFB6F1 /* AlegreyaSansSC-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA25FE627F0E42100C23D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA25FF027F0E42100C23D1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEA25FCE27F0E41F00C23D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE034A1B27FB690600E58FEA /* ViewControllerTemp.swift in Sources */,
+				EE5C42512812359700E5A769 /* PrimaryTableViewCell.swift in Sources */,
+				EE88093727F13334002FE4B8 /* StartupViewController.swift in Sources */,
+				EE88093927F1335E002FE4B8 /* WorkOrderViewController.swift in Sources */,
+				EEA25FDA27F0E41F00C23D1F /* ViewController.swift in Sources */,
+				EE034A1827FA341600E58FEA /* YPDrawSignatureView.swift in Sources */,
+				EEA25FD627F0E41F00C23D1F /* AppDelegate.swift in Sources */,
+				EE034A1D27FCD50900E58FEA /* TimeSheetViewController.swift in Sources */,
+				EEA25FD827F0E41F00C23D1F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA25FE427F0E42100C23D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA25FED27F0E42100C23D1F /* Pierpont1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA25FEE27F0E42100C23D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA25FF727F0E42100C23D1F /* Pierpont1UITests.swift in Sources */,
+				EEA25FF927F0E42100C23D1F /* Pierpont1UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEA25FEA27F0E42100C23D1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEA25FD127F0E41F00C23D1F /* Pierpont1 */;
+			targetProxy = EEA25FE927F0E42100C23D1F /* PBXContainerItemProxy */;
+		};
+		EEA25FF427F0E42100C23D1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEA25FD127F0E41F00C23D1F /* Pierpont1 */;
+			targetProxy = EEA25FF327F0E42100C23D1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEA25FDB27F0E41F00C23D1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA25FDC27F0E41F00C23D1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEA25FE027F0E42100C23D1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA25FE127F0E42100C23D1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEA25FFA27F0E42100C23D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEA25FFB27F0E42100C23D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEA25FFD27F0E42100C23D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KHMD5ATA6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pierpont Mechanical/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pierpont Mech";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to allow you to enhance your PDFs.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to save your camera photos to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photos to allow you to enhance your PDFs.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.6.3;
+				PRODUCT_BUNDLE_IDENTIFIER = pierpontmech.PierpontMechanical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EEA25FFE27F0E42100C23D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KHMD5ATA6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pierpont Mechanical/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pierpont Mech";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to allow you to enhance your PDFs.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to save your camera photos to your photo library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photos to allow you to enhance your PDFs.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.6.3;
+				PRODUCT_BUNDLE_IDENTIFIER = pierpontmech.PierpontMechanical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		EEA2600027F0E42100C23D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pierpontmech.Pierpont1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pierpont1.app/Pierpont1";
+			};
+			name = Debug;
+		};
+		EEA2600127F0E42100C23D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pierpontmech.Pierpont1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pierpont1.app/Pierpont1";
+			};
+			name = Release;
+		};
+		EEA2600327F0E42100C23D1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pierpontmech.Pierpont1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pierpont1;
+			};
+			name = Debug;
+		};
+		EEA2600427F0E42100C23D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pierpontmech.Pierpont1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pierpont1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEA25FCD27F0E41F00C23D1F /* Build configuration list for PBXProject "Pierpont Mech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA25FFA27F0E42100C23D1F /* Debug */,
+				EEA25FFB27F0E42100C23D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA25FFC27F0E42100C23D1F /* Build configuration list for PBXNativeTarget "Pierpont1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA25FFD27F0E42100C23D1F /* Debug */,
+				EEA25FFE27F0E42100C23D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA25FFF27F0E42100C23D1F /* Build configuration list for PBXNativeTarget "Pierpont1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA2600027F0E42100C23D1F /* Debug */,
+				EEA2600127F0E42100C23D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA2600227F0E42100C23D1F /* Build configuration list for PBXNativeTarget "Pierpont1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA2600327F0E42100C23D1F /* Debug */,
+				EEA2600427F0E42100C23D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEA25FCA27F0E41F00C23D1F /* Project object */;
+}
