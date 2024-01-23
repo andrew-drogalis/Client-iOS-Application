@@ -9,11 +9,21 @@
 ## About the Project
 
 
+
 ## Screenshots
 
-<!-- 
-<img src="https://raw.githubusercontent.com/andrew-drogalis/Business-Analytics-Desktop-App/main/assets/Analytics_1.PNG" alt="CLI-Email-
-Scanner-Screenshot" style="width: 850px; padding-top: 10px;"> -->
+### Main Form Selection Screen
+
+<img src="https://raw.githubusercontent.com/andrew-drogalis/Client-iOS-Application/main/screenshots/iOS-Screenshot4.png" alt="iOS-App-Screenshot-1" style="width: 450px; padding-top: 10px; align"> 
+
+### Work Order Form
+<img src="https://raw.githubusercontent.com/andrew-drogalis/Client-iOS-Application/main/screenshots/iOS-Screenshot3.png" alt="iOS-App-Screenshot-2" style="width: 450px; padding-top: 10px;"> 
+
+### Start Up Form
+<img src="https://raw.githubusercontent.com/andrew-drogalis/Client-iOS-Application/main/screenshots/iOS-Screenshot2.png" alt="iOS-App-Screenshot-3" style="width: 450px; padding-top: 10px;"> 
+
+### Time Sheet Form
+<img src="https://raw.githubusercontent.com/andrew-drogalis/Client-iOS-Application/main/screenshots/iOS-Screenshot1.png" alt="iOS-App-Screenshot-4" style="width: 450px; padding-top: 10px;"> 
 
 
 ## License
