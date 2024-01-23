@@ -1,13 +1,23 @@
-
 # Client iOS Application
 
-## Getting Started
+## Table of Contents
 
-To download a single executable file navigate to the [Release](https://github.com/andrew-drogalis/Ideal-Home-Location-Matcher/releases) page. 
+* [About the Project](#About-the-Project)
+* [Screenshots](#Screenshots)
+* [License](#License)
 
-Alternatively, download the source code from the release page or clone the repository to your local machine. Once downloaded, navigate to the project folder and type cmd in the directory to open the command line. Run the setup.py file  and download the required dependencies. The Ideal Home Location Matcher.py will initalize the GUI and start the application.
+## About the Project
+
+
+## Screenshots
+
+<!-- 
+<img src="https://raw.githubusercontent.com/andrew-drogalis/Business-Analytics-Desktop-App/main/assets/Analytics_1.PNG" alt="CLI-Email-
+Scanner-Screenshot" style="width: 850px; padding-top: 10px;"> -->
+
 
 ## License
 
-This software is distributed under the GNU license. Please read [LICENSE](https://github.com/andrew-drogalis/Ideal-Home-Location-Matcher/blob/main/LICENSE) for information on the software availability and distribution.
+This software is distributed under the GNU license. Please read [LICENSE](https://github.com/andrew-drogalis/CLI-Email-Scanner/blob/main/LICENSE) for information on the software availability and distribution.
+
 
